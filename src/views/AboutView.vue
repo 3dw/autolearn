@@ -4,7 +4,7 @@
     <div class="ui two column stackable grid">
       <div class="column">
         <h1 class="ui center aligned header">教師簡介</h1>
-        <img src="@/assets/about.png" alt="教師照片" class="ui round image">
+        <img src="@/assets/about_me.png" alt="教師照片" class="ui round image">
         <p>教師：李雅卿</p>
         <p>簡介：</p>
         <p>國立政治大學法學碩士。</p>
