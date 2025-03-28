@@ -21,11 +21,20 @@
         <p>「我們也很努力啊！只是我們的努力常常事倍而功半，受到諸多力量的干擾和影響。」現場第一線工作者如是說。</p>
         <p>於是我想把相關的實作經驗，配合學年制整理成一學期的課程，試試看能不能在這個轉型期中，發揮一點正向功能。</p>
         <p class="right aligned">
-          <router-link to="/doc" class="ui purple large button">
-          <i class="file pdf icon"></i>
-          <span>自主學習準備課程</span>
-          <i class="right arrow icon"></i>
-          </router-link>
+          <div class="ui buttons">
+            <router-link to="/doc_teens" class="ui green large button">
+              <i class="book icon"></i>
+              <span>青少年篇</span>
+            </router-link>
+            <router-link to="/doc_parents" class="ui purple large button">
+              <i class="book icon"></i>
+              <span>家長篇</span>
+            </router-link>
+            <router-link to="/doc_educators" class="ui blue large button">
+              <i class="book icon"></i>
+              <span>教師篇</span>
+            </router-link>
+          </div>
         </p>
       </div>
     </div>
