@@ -15,6 +15,21 @@ const router = createRouter({
       component: () => import('../views/DocView.vue'),
     },
     {
+      path: '/doc_teens',
+      name: 'doc_teens',
+      component: () => import('../views/Doc_Teens_View.vue'),
+    },
+    {
+      path: '/doc_parents',
+      name: 'doc_parents',
+      component: () => import('../views/Doc_Parents_View.vue'),
+    },
+    {
+      path: '/doc_educators',
+      name: 'doc_educators',
+      component: () => import('../views/Doc_Educators_View.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       // route level code-splitting
