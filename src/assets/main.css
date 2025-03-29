@@ -18,6 +18,24 @@
   .fat-only {
     display: none !important;
   }
+  .flex-rwd {
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  .flex-rwd .ui.button {
+    border-radius: 0 !important;
+  }
+
+  .flex-rwd .ui.button:first-child {
+    border-top-left-radius: 0.28571429rem !important;
+    border-top-right-radius: 0.28571429rem !important;
+  }
+
+  .flex-rwd .ui.button:last-child {
+    border-bottom-left-radius: 0.28571429rem !important;
+    border-bottom-right-radius: 0.28571429rem !important;
+  }
 }
 
 @media (min-width: 769px) {

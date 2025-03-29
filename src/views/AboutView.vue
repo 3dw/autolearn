@@ -21,7 +21,7 @@
         <p>「我們也很努力啊！只是我們的努力常常事倍而功半，受到諸多力量的干擾和影響。」現場第一線工作者如是說。</p>
         <p>於是我想把相關的實作經驗，配合學年制整理成一學期的課程，試試看能不能在這個轉型期中，發揮一點正向功能。</p>
         <p class="right aligned">
-          <div class="ui buttons">
+          <div class="ui buttons flex-rwd">
             <router-link to="/doc_teens" class="ui green large button">
               <i class="book icon"></i>
               <span>青少年篇</span>
